@@ -13,16 +13,12 @@ a:hover, a:active, a:focus {
 /* navbar */
 
 .navbar-brand {
-    padding-right: 5px;
+    padding-top: 12px;
 }
 .navbar-inverse .navbar-brand:hover, 
 .navbar-inverse .navbar-brand:focus {
     background-color: transparent;
     color: #999999;
-}
-.navbar-header img {
-    max-width: 20px;
-    padding-top: 10px;
 }
 .navbar{
     background: rgba(0,0,0,0.7);
@@ -34,10 +30,11 @@ a:hover, a:active, a:focus {
 .navbar ul {
     font-size: 20px;
 }
-ul.nav img {
-    max-width: 30px;
-    max-height: 36px;
-    padding-top: 10px;
+#logo {
+    display: inline;
+    padding-top: 0;
+    margin-bottom: 5px;
+    max-width: 20px;
 }
 
 /* intro-section */
@@ -191,6 +188,7 @@ ul.nav img {
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     transition: all 0.3s ease 0s;
     cursor: pointer;
+    outline:0;
 }
 .social-icons i:hover {
     color: #229878;
