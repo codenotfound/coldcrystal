@@ -231,10 +231,17 @@
     <!-- WOW.js -->
     <script src="assets/js/wow.min.js"></script>
 
+    <!-- QueryLoader -->
+    <script src="assets/js/queryloader2.min.js" type="text/javascript"></script>
+
     <!-- init -->
     <script>
+        $(document).ready(function () {
+                $("body").queryLoader2({percentage: true});
+        });
         $("[data-toggle=popover]").popover();
         new WOW().init();
+
     </script>
 
     <!-- coverr video -->
