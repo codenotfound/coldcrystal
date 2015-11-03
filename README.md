@@ -1,2 +1,2 @@
 # coldcrystal
-Cold Crystal web development studio. Portfolio website.
+Cold Crystal web development studio. Portfolio website. http://coldcrystal.ru/
