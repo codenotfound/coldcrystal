@@ -73,42 +73,6 @@ a:hover, a:active, a:focus {
     
 }
 
-@media screen and (max-width: 992px) {
-    .portfolio-section {
-        height:auto;
-    }
-    .about-section {
-        height:auto;
-    }
-}
-@media screen and (max-width: 1280px) {
-    .about-section {
-        height:auto;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) { 
-    .portfolio-section .col-xs-12{
-        padding: auto 360px !important;
-    }
-    .portfolio-items {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-}
-@media screen and (min-width: 992px) {
-    .portfolio-items {
-        padding-left: auto;
-        padding-right: auto;
-    }
-}
-@media screen and (max-width: 768px) {
-    .portfolio-items {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
 .portfolio-section h1{
     color: #FFFFFF;
     font-size: 55px;
