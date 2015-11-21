@@ -37,6 +37,9 @@
     <!-- animate.css -->
     <link rel="stylesheet" href="assets/css/animate.css">
 
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css">
+
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
 
@@ -97,8 +100,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="animated fadeInDown">Делать сайты <br> Наше призвание</h1>
-                    <a class="btn btn-default page-scroll animated fadeInUp" href="#portfolio">Наши
-                        Работы</a>
+                    <a class="btn btn-default page-scroll animated fadeInUp" href="#portfolio">
+                        Наши Работы</a>
                 </div>
             </div>
         </div>
@@ -116,27 +119,36 @@
            </div> 
            <div class="row portfolio-items wow fadeInLeft">
                <div class="col-xs-12 col-md-4">
-                   <div href="#" class="thumbnail">
-                       <img src="assets/img/laptop1.png" alt="">
-                       <div class="caption">
-                           <p>Сайт для проекта по... В<br>нем мы использовали ...</p>
-                       </div>
+                   <div class="thumbnail">
+                       <a class="fancybox"
+                           href="assets/img/screenshot1_tryfoto.jpg">
+                           <img src="assets/img/laptop1.png" alt="">
+                           <div class="caption">
+                               <p>Сайт для проекта по... В<br>нем мы использовали ...</p>
+                           </div>
+                       </a>
                    </div>    
                </div>
                <div class="col-xs-12 col-md-4">
-                   <div href="#" class="thumbnail">
-                       <img src="assets/img/laptop2.png" alt="">
-                       <div class="caption">
-                           <p>Интерактивный сайт c<br>использованием jQuery</p>
-                       </div>
-                    </div>
+                   <div class="thumbnail">
+                       <a class="fancybox"
+                           href="assets/img/screenshot2_success.jpg">
+                           <img src="assets/img/laptop2.png" alt="">
+                           <div class="caption">
+                               <p>Интерактивный сайт c<br>использованием jQuery</p>
+                           </div>
+                        </div>
+                    </a>
                </div>
                <div class="col-xs-12 col-md-4">
-                   <div href="#" class="thumbnail">
-                       <img src="assets/img/laptop3.png" alt="">
-                       <div class="caption">
-                           <p>Пример верстки <br>из .psd макета</p>
-                       </div>
+                   <div class="thumbnail">
+                       <a class="fancybox"
+                           href="assets/img/screenshot3_indigo.jpg">
+                           <img src="assets/img/laptop3.png" alt="">
+                           <div class="caption">
+                               <p>Пример верстки <br>из .psd макета</p>
+                           </div>
+                       </a>
                    </div>
                </div>
            </div>
@@ -171,7 +183,7 @@
                                 <img class="img-circle" src="assets/img/photo_dmitry.jpg" alt="dmitry
                                 photo">
                                 <div class="caption">
-                                    <p>Координатор, веб-разработчик Дмитрий В.</p>
+                                    <p>Веб-разработчик <br>Дмитрий В.</p>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +249,15 @@
     <!-- init -->
     <script>
         $(document).ready(function () {
-                $("body").queryLoader2({percentage: true});
+            $("body").queryLoader2({percentage: true});
+            $(".fancybox").fancybox({
+                padding: 0,
+                helpers: {
+                    overlay: {
+                      locked: false
+                    }
+                } 
+            });
         });
         $("[data-toggle=popover]").popover();
         new WOW().init();
@@ -246,6 +266,9 @@
 
     <!-- coverr video -->
     <!-- <script src="assets/js/coverr.js"></script> -->
+
+    <!-- fancybox js -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
 
     <!-- custom javascript -->
     <script src="assets/js/coldcrystal.js"></script>

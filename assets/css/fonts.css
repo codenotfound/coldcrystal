@@ -1,15 +1,30 @@
+/*============================================================
+ * KELSON SANS
+ *============================================================*/
 @font-face {
-    font-family: "KelsonSansLight";
-    src: url("../fonts/KelsonSansLight/KelsonSansLight.eot");
-    src: url("../fonts/KelsonSansLight/KelsonSansLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/KelsonSansLight/KelsonSansLight.woff") format("woff"),
-    url("../fonts/KelsonSansLight/KelsonSansLight.ttf") format("truetype");
+    font-family: "KelsonSans";
+    src: url("../fonts/KelsonSans/KelsonSansLight.eot");
+    src: url("../fonts/KelsonSans/KelsonSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/KelsonSans/KelsonSansLight.woff") format("woff"),
+    url("../fonts/KelsonSans/KelsonSansLight.ttf") format("truetype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
 }
 @font-face {
-    font-family: "KelsonSansRegular";
-    src: url("../fonts/KelsonSansRegular/KelsonSansRegular.otf");
+    font-family: "KelsonSans";
+    src: url("../fonts/KelsonSans/KelsonSansBold.eot");
+    src: url("../fonts/KelsonSans/KelsonSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/KelsonSans/KelsonSansBold.woff") format("woff"),
+    url("../fonts/KelsonSans/KelsonSansBold.ttf") format("truetype");
     font-style: normal;
-    font-weight: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "KelsonSans";
+    src: url("../fonts/KelsonSans/KelsonSansRegular.eot");
+    src: url("../fonts/KelsonSans/KelsonSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/KelsonSans/KelsonSansRegular.woff") format("woff"),
+    url("../fonts/KelsonSans/KelsonSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
 }
